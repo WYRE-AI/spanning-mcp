@@ -1,5 +1,5 @@
 {
-  "name": "@wyre-technology/spanning-mcp",
+  "name": "@wyre-ai/spanning-mcp",
   "version": "0.0.0",
   "description": "Spanning Cloud Backup MCP server for Claude — M365/GWS/Salesforce backup, restore, audit",
   "type": "module",
@@ -25,7 +25,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wyre-technology/spanning-mcp.git"
+    "url": "git+https://github.com/WYRE-AI/spanning-mcp.git"
   },
   "keywords": [
     "mcp",
@@ -42,9 +42,9 @@
   "author": "Wyre Technology",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/wyre-technology/spanning-mcp/issues"
+    "url": "https://github.com/WYRE-AI/spanning-mcp/issues"
   },
-  "homepage": "https://github.com/wyre-technology/spanning-mcp#readme",
+  "homepage": "https://github.com/WYRE-AI/spanning-mcp#readme",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.30.0",
     "@wyre-technology/node-spanning": "^1.0.3"

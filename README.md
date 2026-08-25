@@ -1,6 +1,6 @@
 # Spanning Cloud Backup MCP Server
 
-[![CI](https://github.com/wyre-technology/spanning-mcp/actions/workflows/ci.yml/badge.svg)](https://github.com/wyre-technology/spanning-mcp/actions/workflows/ci.yml)
+[![CI](https://github.com/WYRE-AI/spanning-mcp/actions/workflows/ci.yml/badge.svg)](https://github.com/WYRE-AI/spanning-mcp/actions/workflows/ci.yml)
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 A [Model Context Protocol](https://modelcontextprotocol.io) server exposing the
