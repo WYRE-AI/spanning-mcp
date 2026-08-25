@@ -1,18 +1,18 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "io.github.wyre-technology/spanning-mcp",
+  "name": "io.github.WYRE-AI/spanning-mcp",
   "title": "Spanning Cloud Backup",
   "description": "MCP server for Spanning Cloud Backup — M365/GWS/Salesforce backups, restores, audit.",
   "repository": {
-    "url": "https://github.com/wyre-technology/spanning-mcp",
+    "url": "https://github.com/WYRE-AI/spanning-mcp",
     "source": "github"
   },
   "version": "0.0.0",
-  "websiteUrl": "https://github.com/wyre-technology/spanning-mcp",
+  "websiteUrl": "https://github.com/WYRE-AI/spanning-mcp",
   "packages": [
     {
       "registryType": "oci",
-      "identifier": "ghcr.io/wyre-technology/spanning-mcp:0.0.0",
+      "identifier": "ghcr.io/wyre-ai/spanning-mcp:0.0.0",
       "transport": {
         "type": "stdio"
       },

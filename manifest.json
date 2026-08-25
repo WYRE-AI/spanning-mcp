@@ -5,9 +5,9 @@
   "version": "0.0.0",
   "description": "MCP server for Spanning Cloud Backup - access M365/GWS/Salesforce backup status, queue restores, and review audit/license through AI assistants",
   "long_description": "Provides AI assistants with structured access to your Spanning Cloud Backup tenant. List backed-up users across Microsoft 365, Google Workspace, or Salesforce, inspect services and backup history, queue restores with confirmation, monitor restore progress, and review the admin audit log and license usage through the Model Context Protocol.",
-  "author": { "name": "Wyre Technology", "url": "https://github.com/wyre-technology" },
-  "repository": { "type": "git", "url": "https://github.com/wyre-technology/spanning-mcp" },
-  "homepage": "https://github.com/wyre-technology/spanning-mcp",
+  "author": { "name": "Wyre Technology", "url": "https://github.com/WYRE-AI" },
+  "repository": { "type": "git", "url": "https://github.com/WYRE-AI/spanning-mcp" },
+  "homepage": "https://github.com/WYRE-AI/spanning-mcp",
   "license": "Apache-2.0",
   "keywords": ["spanning", "saas-backup", "m365", "google-workspace", "salesforce", "msp", "kaseya"],
   "server": {
