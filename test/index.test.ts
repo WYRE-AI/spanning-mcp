@@ -63,9 +63,8 @@ describe("Spanning Cloud Backup MCP Server", () => {
   });
 
   describe("Platform validation", () => {
-    // Mirrors index.ts's VALID_PLATFORMS — kept as a plain literal check since
-    // index.ts itself can't be imported in tests (it boots a real transport
-    // at module-import time via main()).
+    // Mirrors index.ts's VALID_PLATFORMS. Kept as a literal so this file does
+    // not boot the HTTP transport.
     const validPlatforms = ["m365", "gws", "salesforce"];
 
     it("should support m365, gws, salesforce", () => {
