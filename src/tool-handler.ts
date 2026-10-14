@@ -1,10 +1,9 @@
 /**
  * Tool-call handling for the Spanning Cloud Backup MCP server.
  *
- * Extracted from index.ts so it can be unit-tested directly: index.ts runs
- * main() at module-import time (it boots a real stdio/HTTP transport), so it
- * cannot be imported by a test without side effects. This module has none —
- * importing it just gives you handleSpanningTool.
+ * Extracted from index.ts so tool behavior can be unit-tested without the
+ * HTTP transport. This module has no side effects — importing it just gives
+ * you handleSpanningTool.
  */
 
 import { SpanningClient } from "@wyre-technology/node-spanning";
